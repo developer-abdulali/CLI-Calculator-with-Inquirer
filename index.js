@@ -30,8 +30,6 @@ else if (answer.operator === "Multiply") {
 else if (answer.operator === "Division") {
     result = answer.num1 / answer.num2;
 }
-else if (answer.operator === "Percentage") {
-    result = answer.num1 % answer.num2;
-}
+
 console.log(answer);
 console.log(`Result: ${result}`);
