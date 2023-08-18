@@ -15,7 +15,7 @@ let answer = await inquirer.prompt([
     name: "operator",
     type: "list",
     message: "Select the operator",
-    choices: ["Add", "Substract", "Multiply", "Division", "Percentage"],
+    choices: ["Add", "Substract", "Multiply", "Division"]
   },
 ]);
 
